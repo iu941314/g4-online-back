@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c35b08c2-c84f-469e-a67b-778c723647a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\My Installations\Maven\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../My Installations/Maven/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\My Installations\Maven\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="26KcsDqPOcxGD1dxr2mr8RwZ3P5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/java/project/projecr3/g4-online-back",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "spring.configuration.checksum": "3ee5f37b7db9154dd3340e7e756b74e9",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.awei.server.config.security" />
+      <recent name="com.awei.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_Space\yeb\yeb-server\src\main\resources\mapper" />
+      <recent name="E:\IDEA_Space\yeb\yeb-server\src\main\java\com\awei\server\service\impl" />
+      <recent name="E:\IDEA_Space\yeb\yeb-server\src\main\java\com\awei\server\service" />
+      <recent name="E:\IDEA_Space\yeb\yeb-server\src\main\java\com\awei\server\pojo" />
+      <recent name="E:\IDEA_Space\yeb\yeb-server\src\main\java\com\awei\server\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA_Space\yeb\yeb-server\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.group4.server.pojo.count" />
+      <recent name="com.group4.server.controller_g4" />
+      <recent name="com.awei.mail" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StartApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.awei.generator.CodeGenerator" />
+      <module name="g4-online-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.awei.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="g4-online-mail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.group4.mail.MailApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group4.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="g4-online-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.group4.server.StartApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.group4.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StartApplication" />
+        <item itemvalue="Spring Boot.MailApplication" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c35b08c2-c84f-469e-a67b-778c723647a3" name="Default Changelist" comment="" />
+      <created>1647175922704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647175922704</updated>
+      <workItem from="1647175925063" duration="912000" />
+      <workItem from="1647176867262" duration="9075000" />
+      <workItem from="1647228550300" duration="3930000" />
+      <workItem from="1647506924162" duration="110000" />
+      <workItem from="1647514705391" duration="4341000" />
+      <workItem from="1647569491918" duration="16090000" />
+      <workItem from="1647660048193" duration="13138000" />
+      <workItem from="1647740107637" duration="14330000" />
+      <workItem from="1647824918787" duration="23772000" />
+      <workItem from="1647913168838" duration="6034000" />
+      <workItem from="1648105485397" duration="64000" />
+      <workItem from="1648382352607" duration="6123000" />
+      <workItem from="1648437639969" duration="1446000" />
+      <workItem from="1648538715392" duration="85000" />
+      <workItem from="1648804232407" duration="1200000" />
+      <workItem from="1648870412322" duration="5272000" />
+      <workItem from="1649042213737" duration="2636000" />
+      <workItem from="1649073247307" duration="4510000" />
+      <workItem from="1649147649223" duration="591000" />
+      <workItem from="1649497047931" duration="4923000" />
+      <workItem from="1649579040295" duration="2143000" />
+      <workItem from="1649640987106" duration="3958000" />
+      <workItem from="1649647310336" duration="3721000" />
+      <workItem from="1649760477542" duration="5511000" />
+      <workItem from="1649935239097" duration="4315000" />
+      <workItem from="1649990543683" duration="6164000" />
+      <workItem from="1650095577989" duration="5875000" />
+      <workItem from="1684410392008" duration="39616000" />
+      <workItem from="1684572787840" duration="50000" />
+      <workItem from="1684572887363" duration="236000" />
+      <workItem from="1684573199050" duration="51724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="e.cause" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

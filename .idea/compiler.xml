@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="g4-online-mail" />
+        <module name="g4-online-generator" />
+        <module name="g4-online-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="g4-online-generator" target="1.8" />
+      <module name="g4-online-mail" target="1.8" />
+      <module name="g4-online-server" target="1.8" />
+      <module name="g4_online_back" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="g4-online-generator" options="-parameters" />
+      <module name="g4-online-mail" options="-parameters" />
+      <module name="g4-online-server" options="-parameters" />
+      <module name="g4_online_back" options="" />
+    </option>
+  </component>
+</project>
