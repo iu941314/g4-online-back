@@ -6,12 +6,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 日期转换
- * @date 2022/3/20 9:43
- */
+
 @Component
 public class DateConverter implements Converter<String, LocalDate> {
 

@@ -269,8 +269,18 @@
         GROUP BY tiptopDegree
 
     </select>
+<!-- 员工省份统计-->
 
+    <select id="countProvice" resultType="int">
+        SELECT COUNT(1) as coutProvice
+        FROM t_employee
+        WHERE address like  CONCAT(#{province},"%")
+    </select>
 
+<!--    查询省份字段-->
+    <select id="queryProviceName" resultType="string">
+        SELECT  name from t_province
+    </select>
 
 
 </mapper>

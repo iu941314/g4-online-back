@@ -13,12 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 个人中心
- * @date 2022/3/27 20:36
- */
+
 @RestController
 public class AdminInfoController {
 

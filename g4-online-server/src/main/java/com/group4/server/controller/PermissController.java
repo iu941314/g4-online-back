@@ -16,12 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 权限组
- * @date 2022/3/18 16:34
- */
+
 @RestController
 @RequestMapping("/system/basic/permiss")
 public class PermissController {

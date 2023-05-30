@@ -13,14 +13,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="g4-online-generator" target="1.8" />
-      <module name="g4-online-mail" target="1.8" />
-      <module name="g4-online-server" target="1.8" />
+      <module name="g4-online-flowable" target="1.8" />
       <module name="g4_online_back" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="g4-online-flowable" options="-parameters" />
       <module name="g4-online-generator" options="-parameters" />
       <module name="g4-online-mail" options="-parameters" />
       <module name="g4-online-server" options="-parameters" />

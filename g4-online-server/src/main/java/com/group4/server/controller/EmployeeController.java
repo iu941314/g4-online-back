@@ -22,12 +22,7 @@ import java.net.URLEncoder;
 import java.time.LocalDate;
 import java.util.List;
 
-/**
- * <p>
- *  前端控制器
- * </p>
 
- */
 @RestController
 @RequestMapping("/employee/basic")
 public class EmployeeController {

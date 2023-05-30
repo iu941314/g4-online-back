@@ -7,12 +7,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.sql.SQLException;
 import java.sql.SQLIntegrityConstraintViolationException;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 全局异常处理
- * @date 2022/3/18 16:04
- */
+
 @RestControllerAdvice
 public class GlobalException {
 

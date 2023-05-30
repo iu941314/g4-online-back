@@ -244,4 +244,33 @@ public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> i
         map.put("yAxis",data2);
         return map;
     }
+
+    /**
+     * 查询员工来自省份
+     * @return
+     */
+    @Override
+    public Map<String, Object> countProvice() {
+        Map<String, Object> map = new HashMap<>();
+        List<Map<String,Object>> data = new ArrayList<>();
+        //查询省份名
+        List<String> list = employeeMapper.queryProviceName();
+        for (String name:list) {
+            System.out.println(name);
+            //临时容器1
+            Map<String,Object> map1 = new HashMap<>();
+            //临时容器2
+//            List<Map<String,Object>> data1 = new ArrayList<>();
+            map1.put("name",name);
+            //通过省份名查询数据
+            Integer countProvice = employeeMapper.countProvice(name);
+            map1.put("value",countProvice);
+//            data1.add(map1);
+            data.add(map1);
+
+        }
+
+        map.put("data",data);
+        return map;
+    }
 }

@@ -11,14 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * <p>
- *  前端控制器
- * </p>
- *
- * @author awei
- * @since 2022-03-13
- */
+
 @RestController
 @RequestMapping("/system/cfg")
 public class MenuController {

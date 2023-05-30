@@ -30,6 +30,18 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
      List<CountSex> countSex();
      List<CountEdu> countEdu();
 
+    /**
+     * 模糊统计员工来自省份
+     * @param province
+     * @return
+     */
+    Integer countProvice(@Param("province") String province);
+
+    List<String> queryProviceName();
+
+
+
+
 
 
 

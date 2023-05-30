@@ -13,12 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 验证码
- * @date 2022/3/14 12:14
- */
+
 @RestController
 public class CaotchaController {
 

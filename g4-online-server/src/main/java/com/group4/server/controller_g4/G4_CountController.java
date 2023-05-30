@@ -5,6 +5,7 @@ import com.group4.server.service.IEmployeeService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
@@ -46,6 +47,18 @@ public class G4_CountController {
     public RespBean queryEduCount() {
         RespBean respBean = new RespBean();
         respBean.setObj(employeeService.countEdu());
+        respBean.setCode(200);
+        respBean.setMessage("查询成功");
+        return respBean;
+    }
+
+
+    @ApiOperation(value = "人员省份分布")
+    @GetMapping("g4_countProvice")
+    @ResponseBody
+    public RespBean countProvice() {
+        RespBean respBean = new RespBean();
+        respBean.setObj(employeeService.countProvice());
         respBean.setCode(200);
         respBean.setMessage("查询成功");
         return respBean;

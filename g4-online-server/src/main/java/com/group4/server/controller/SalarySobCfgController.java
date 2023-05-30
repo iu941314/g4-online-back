@@ -13,12 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 员工账套
- * @date 2022/3/21 21:03
- */
+
 @RestController
 @RequestMapping("/salary/sobcfg")
 public class SalarySobCfgController {

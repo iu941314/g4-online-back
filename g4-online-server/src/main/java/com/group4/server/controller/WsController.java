@@ -11,12 +11,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBr
 
 import java.time.LocalDateTime;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: TODO
- * @date 2022/3/22 10:22
- */
+
 @Controller
 @EnableWebSocketMessageBroker
 public class WsController {

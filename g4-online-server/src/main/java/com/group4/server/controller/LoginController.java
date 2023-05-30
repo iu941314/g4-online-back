@@ -15,12 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 登录
- * @date 2022/3/13 23:32
- */
+
 @Api(tags = "LoginController")
 @RestController
 public class LoginController {

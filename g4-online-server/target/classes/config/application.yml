@@ -36,7 +36,7 @@ spring:
     #服务器端口
     port: 6379
     #数据库
-    database: 7
+    database: 0
     #密码
     password:
     lettuce:
@@ -89,3 +89,11 @@ jwt:
   expiration: 604800
   # JWT 负载中拿到开头
   tokenHead: Bearer
+
+#
+##flowable 设置
+#flowable:
+#  database-schema-update: true
+#  async-executor-activate: false
+
+

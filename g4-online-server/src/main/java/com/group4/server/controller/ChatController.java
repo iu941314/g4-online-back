@@ -10,12 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * @author AWEI
- * @version 1.0
- * @description: 在线聊天
- * @date 2022/3/22 10:31
- */
+
 @RestController
 @RequestMapping("/chat")
 public class ChatController {

@@ -61,8 +61,14 @@ public interface IEmployeeService extends IService<Employee> {
 //
 
     Map<String,Object> queryMarrige_count();
-
+    //查询部门人数
     Map<String, Object> queryDeptmentCount();
+    //查询性别
     Map<String, Object> countSex();
+    //查询学历
     Map<String, Object> countEdu();
+    //查询省份
+    Map<String,Object> countProvice();
+
+
 }

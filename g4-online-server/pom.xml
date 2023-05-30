@@ -98,7 +98,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
-<!--        &lt;!&ndash;FastDFS依赖&ndash;&gt;-->
+
+
+        <!-- 工作流flowable架包 -->
+  <!--      <dependency>
+            <groupId>org.flowable</groupId>
+            <artifactId>flowable-spring-boot-starter</artifactId>
+            <version>6.7.2</version>
+        </dependency>
+-->
+
+
+        <!--        &lt;!&ndash;FastDFS依赖&ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>org.csource</groupId>-->
 <!--            <artifactId>fastdfs-client-java</artifactId>-->
